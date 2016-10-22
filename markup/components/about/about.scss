@@ -1,0 +1,21 @@
+.about {
+  display: flex;
+
+  justify-content: space-between;
+  &__left {
+    max-width: 50%;
+    padding-top: 65px;
+    padding-left: 40px;
+  }
+  &__right {
+    max-width: 50%;
+  }
+  &__title {
+    margin-bottom: 40px;
+
+    @extend .title;
+  }
+  .btn {
+    margin-top: 40px;
+  }
+}
