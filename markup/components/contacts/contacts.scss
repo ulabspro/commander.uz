@@ -1,0 +1,36 @@
+.contacts {
+  display: flex;
+
+  padding-top: 85px;
+  padding-right: 40px;
+  padding-left: 40px;
+
+  align-items: center;
+  justify-content: space-between;
+  &__left {
+    width: 50%;
+  }
+  &__right {
+    width: 40%;
+  }
+  &__title {
+    margin-bottom: 50px;
+
+    @extend .title;
+  }
+  &__map {
+    margin-left: 50px;
+  }
+  &__item {
+    margin-bottom: 20px;
+
+    font-size: 24px;
+    font-weight: 700;
+    span {
+      font-weight: 400;
+    }
+    a {
+      color: $yellow;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+mixin products(data)
+  .products
+    .products__title Продукция
+    .products-list
+      - for (var i = 1; i < 9; i++)
+        .products-list__item
+          img(src="%=static=%images/assets/products/#{i}.jpg" alt="")
+          .products-list__model Модель #12#{i}
+            a(href="#" title="").btn Заказать

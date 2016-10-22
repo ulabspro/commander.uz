@@ -7,6 +7,9 @@ html(class="no-js", lang="ru")
   include ../components/about/about
   include ../components/certificates/certificates
   include ../components/factory/factory
+  include ../components/products/products
+  include ../components/partners/partners
+  include ../components/contacts/contacts
   include ../components/footer/footer
 
   head
@@ -17,6 +20,10 @@ html(class="no-js", lang="ru")
       +slider()
       +about()
       +factory()
+      +products()
+      +partners()
+      +contacts()
+    +footer()
 
   //- Main scripts. You can replace it, but I recommend you to leave it here
   script(src='%=static=%js/main%=hash=%%=min=%.js')
