@@ -12,6 +12,12 @@
   &__description {
     padding-bottom: 20px;
   }
+  .btn {
+    position: relative;
+    left: 50%;
+
+    transform: translateX(-50%);
+  }
 }
 
 .factory-accordion {
@@ -28,6 +34,11 @@
   justify-content: space-between;
   li {
     width: 20%;
+    &:hover {
+      .factory-accordion__item {
+        color: $yellow;
+      }
+    }
   }
   &__image {
     position: relative;
@@ -72,11 +83,6 @@
       font-size: 80px;
       line-height: 1;
     }
-    &:hover {
-      cursor: pointer;
-
-      color: $yellow;
-    }
   }
   &__icon {
     position: absolute;
@@ -91,12 +97,7 @@
 }
 
 .factory-bottom {
-  display: flex;
-  justify-content: space-between;
-  &__left {
-    width: 48%;
-  }
-  &__right {
-    width: 48%;
-  }
+  display: none;
+
+  padding-left: 40px;
 }
