@@ -3,12 +3,47 @@
 
   padding: 32px 0;
 
+  transition: all .4s ease-in-out;
+
   align-items: center;
   justify-content: space-between;
   &__logo {
     display: block;
 
+    transition: all .4s ease-in-out;
+
     @include bg($logo-header);
+  }
+  &.fixed {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    width: 100%;
+    max-width: 1440px;
+    height: 114px;
+    box-sizing: border-box;
+    margin: auto;
+
+    background-color: #fff;
+
+    line-height: 50px;
+    .header__logo {
+      transform: scale(.6);
+    }
+    .header-contacts {
+      &__address {
+        display: none;
+      }
+      &__phone {
+        line-height: 84px;
+      }
+    }
+    .header-menu__item {
+      padding-bottom: 0;
+    }
   }
 }
 
@@ -25,6 +60,7 @@
     margin-right: 48px;
     padding-bottom: 16px;
 
+    transition: all .3s ease-in-out;
     text-decoration: none;
     text-transform: uppercase;
 
@@ -37,7 +73,6 @@
     &:after {
       position: absolute;
       bottom: 0;
-      bottom: 0;
       left: 0;
 
       width: 0;
@@ -48,8 +83,13 @@
 
       background-color: $yellow;
     }
-    &:hover:after {
-      width: 100%;
+    &:hover {
+      color: $yellow;
+    }
+    &.active {
+      &:after {
+        width: 100%;
+      }
     }
   }
 }

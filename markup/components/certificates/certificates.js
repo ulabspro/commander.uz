@@ -2,7 +2,7 @@ $('.js-certificates').slick({
   infinite: true,
   arrows: false,
   dots: true,
-  adaptiveHeight: true,
+  adaptiveHeight: false,
   autoplay: true,
   autoplaySpeed: 3000
 });
