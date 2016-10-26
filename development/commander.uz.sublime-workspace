@@ -4,6 +4,106 @@
 		"selected_items":
 		[
 			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"tra",
+				"translate"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"pa",
+				"partners-list"
+			],
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"pro",
+				"products-list"
+			],
+			[
+				"products-li",
+				"products-list__item"
+			],
+			[
+				"tog",
+				"toggleText"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fa",
+				"factory"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"fac",
+				"factory-accordion"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"js-hide",
+				"js-hideup-btn"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"header",
+				"header-contacts"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"Ral",
+				"Raleway-Regular"
+			],
+			[
+				"heda",
+				"header"
+			],
+			[
 				"print",
 				"printElement"
 			],
@@ -22,14 +122,6 @@
 			[
 				"maign",
 				"margin-bottom"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"marign",
-				"margin-top"
 			],
 			[
 				"st",
@@ -58,10 +150,6 @@
 			[
 				"Вол",
 				"Волгоград"
-			],
-			[
-				"padd",
-				"padding-top"
 			],
 			[
 				"destr",
@@ -128,20 +216,12 @@
 				"JSON.stringify"
 			],
 			[
-				"text",
-				"text-shadow"
-			],
-			[
 				"ver",
 				"vertical-align"
 			],
 			[
 				"map",
 				"mapContainer"
-			],
-			[
-				"pad",
-				"padding-left"
 			],
 			[
 				"init",
@@ -170,10 +250,6 @@
 			[
 				"publ",
 				"publication-archive\t(index.php)"
-			],
-			[
-				"visi",
-				"visible"
 			],
 			[
 				"over",
@@ -248,10 +324,6 @@
 				"section"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"min",
 				"min-width"
 			],
@@ -316,10 +388,6 @@
 				"subscribeButton"
 			],
 			[
-				"fon",
-				"font-size\tstyl"
-			],
-			[
 				"margi",
 				"margin-right\tstyl"
 			],
@@ -364,10 +432,6 @@
 				"inpute\tinput - email"
 			],
 			[
-				"max",
-				"max-width\tstyl"
-			],
-			[
 				"wa-blog-bet",
 				"wa-blog-better-item"
 			],
@@ -384,16 +448,8 @@
 				"registration-form"
 			],
 			[
-				"head",
-				"header"
-			],
-			[
 				"marg",
 				"margin-top"
-			],
-			[
-				"pro",
-				"profile-settings-form__select"
 			],
 			[
 				"op",
@@ -458,67 +514,35 @@
 			[
 				"adv",
 				"advantage"
-			],
-			[
-				"ad",
-				"advantages"
-			],
-			[
-				"ma",
-				"margin-top"
-			],
-			[
-				"has",
-				"hasClass"
-			],
-			[
-				"borde",
-				"border-box"
-			],
-			[
-				"product",
-				"product-list\t(index.php)"
-			],
-			[
-				"slider",
-				"sliderSecond"
-			],
-			[
-				"tran",
-				"transparent"
-			],
-			[
-				"background-o",
-				"background-color"
-			],
-			[
-				"curr",
-				"currentIndex"
-			],
-			[
-				"func",
-				"function"
-			],
-			[
-				"new",
-				"newIndex"
-			],
-			[
-				"c-pro",
-				"c-promo-slider-item"
-			],
-			[
-				"abs",
-				"absolute"
-			],
-			[
-				"product-list-colum",
-				"product-list-columns-two"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/pages/index.jade",
+			"settings":
+			{
+				"buffer_size": 760,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/footer/footer.jade",
+			"settings":
+			{
+				"buffer_size": 39,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/footer/footer.scss",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -591,10 +615,46 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/1studio/commander.uz/markup"
+		"/Users/extiser/git/1studio/commander.uz/markup",
+		"/Users/extiser/git/1studio/commander.uz/markup/components",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/footer",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/head/data",
+		"/Users/extiser/git/1studio/commander.uz/markup/pages",
+		"/Users/extiser/git/1studio/commander.uz/markup/static",
+		"/Users/extiser/git/1studio/commander.uz/markup/static/scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/static/scss/libraries"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/1studio/commander.uz/markup/components/contacts/contacts.jade",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/contacts/contacts.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/partners/partners.jade",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/partners/partners.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/products/products.jade",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/products/products.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/factory/factory.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/factory/factory.jade",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/factory/factory.js",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/certificates/certificates.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/static/scss/libraries/slick.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/about/about.jade",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/certificates/certificates.jade",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/certificates/certificates.js",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/about/about.js",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/about/about.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/pages/index.jade",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/head/head.jade",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/head/data/data.js",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/slider/slider.jade",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/slider/slider.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/header/header.jade",
+		"/Users/extiser/git/1studio/commander.uz/markup/components/header/header.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/static/scss/vars.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/static/scss/common.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/1studio/commander.uz/markup/static/scss/libraries/fa.scss",
 		"/Users/extiser/MAMP/1c-wiseadvice-bx-site/local/markup/company/contacts/index.php",
 		"/Users/extiser/MAMP/1c-wiseadvice-bx-site/local/.development/src/js/widgets/print.js",
 		"/Users/extiser/MAMP/1c-wiseadvice-bx-site/local/.development/src/scss/partials/global.scss",
@@ -693,36 +753,7 @@
 		"/Users/extiser/git/default-template/sovets24/static/css/main.min.css",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/templates/main/js/main.js",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/layout/wa-form.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/vacancy-plate.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-audience.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-rubric.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/helpers.styl",
-		"/Users/extiser/MAMP/wiseadvice.ru/.git/info/exclude",
-		"/Users/extiser/Downloads/temp/Новая папка/waru_28_09_16_backup/.access.php",
-		"/Users/extiser/git/nnm/markup/pages/reg.jade",
-		"/Users/extiser/git/nnm/markup/components/registration/registration.jade",
-		"/Users/extiser/git/nnm/markup/components/registration/registration.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/footer/footer.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-2-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/header/header.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/header/header.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/registration/registration.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/registration/registration.jade",
-		"/Users/extiser/git/dietplatnik/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/dietplatnik/markup/pages/profile.jade",
-		"/Users/extiser/git/dietplatnik/tars-config.js",
-		"/Users/extiser/git/dietplatnik/markup/components/user-profile/user-profile.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/user-profile/user-profile.scss",
-		"/Users/extiser/git/dietplatnik/markup/pages/_layout.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-4-2.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-4-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-3.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-2.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-1-2.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-1_2.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/footer/footer.scss"
+		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/vacancy-plate.styl"
 	],
 	"find":
 	{
@@ -760,6 +791,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".js-accordion-item",
+			".fa-chevron-right",
+			"url('",
 			"moda",
 			"small",
 			"img",
@@ -884,10 +918,7 @@
 			"radio-block",
 			"К какому",
 			"Подходит ли вам",
-			"Реализованные",
-			"руали",
-			"c-prices",
-			"font-size: 20px;"
+			"Реализованные"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -895,6 +926,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			".fa-chevron-right.factory-accordion__icon",
+			"url('../fonts/",
 			"\"coordinates\"",
 			"changeable-contacts",
 			".ya-map",
@@ -1019,10 +1053,7 @@
 			".slide__content__title",
 			"",
 			"/images/",
-			"water",
-			"cr_stone_kg",
-			"cr_stone_m",
-			"sand_m"
+			"water"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1033,8 +1064,99 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/pages/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								629,
+								629
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 138.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/components/footer/footer.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "markup/components/footer/footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1081,7 +1203,7 @@
 	"project": "commander.uz.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":
