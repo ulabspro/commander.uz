@@ -1,0 +1,14 @@
+.footer {
+  height: 50px;
+  margin-top: 80px;
+  background-color: #333;
+  width: 100%;
+}
+
+.ulabs {
+  display: block;
+  @include bg($ulabs);
+  margin: auto;
+  top: 4px;
+  position: relative;
+}
