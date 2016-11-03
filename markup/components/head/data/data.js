@@ -1,6 +1,6 @@
 head: {
     defaults: {
-        title: 'Commandor - качественная обувь',
+        title: 'Commander - качественная обувь',
         useSocialMetaTags: false
     }
 }

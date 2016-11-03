@@ -1,15 +1,22 @@
 mixin header(data)
   header.header.fixed
     a(href="#" title="").header__logo
+      span
     .header-menu
-      a(href="#about" title="").header-menu__item О компании
-      a(href="#factory" title="").header-menu__item Производство
-      a(href="#products" title="").header-menu__item Продукция
-      a(href="#partners" title="").header-menu__item Партнеры
-      a(href="#contacts" title="").header-menu__item Контакты
+      .header-menu__mobile.js-menu
+        i.fa.fa-bars
+        span Меню
+      .header-menu__list.js-menu-list
+        a(href="#about" title="").header-menu__item О компании
+        a(href="#factory" title="").header-menu__item Производство
+        a(href="#products" title="").header-menu__item Продукция
+        a(href="#partners" title="").header-menu__item Партнеры
+        a(href="#contacts" title="").header-menu__item Контакты
     .header-contacts
       .header-contacts__phone 
         i.fa.fa-mobile.header-contacts__icon
-        | +7 (925) 
-        strong 514-77-15
-      .header-contacts__address Москва, 107564, Краснобогатырская ул., дом 38, корп. 10
+        | +998 (91) 
+        strong 137-83-11
+      .header-contacts__address г. Ташкент, Яккасарайский район, ул. Кушбеги, 35
+      a(href="tel:+998911378311" title="").header-contacts__mobile
+        i.fa.fa-phone

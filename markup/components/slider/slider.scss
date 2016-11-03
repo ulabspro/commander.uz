@@ -4,4 +4,7 @@
 
   background: url(%=static=%general/temp-baner.jpg) no-repeat center;
   background-size: cover;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 }
