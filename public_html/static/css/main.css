@@ -3550,14 +3550,14 @@ blockquote {
   font-style: normal;
 }
 
-.title, .about__title, .contacts__title, .factory__title, .partners__title, .products__title {
+.title, .about__title, .factory__title, .contacts__title, .partners__title, .products__title {
   color: #333;
   font-size: 40px;
   font-weight: 400;
   line-height: 20px;
 }
 
-.title:after, .about__title:after, .contacts__title:after, .factory__title:after, .partners__title:after, .products__title:after {
+.title:after, .about__title:after, .factory__title:after, .contacts__title:after, .partners__title:after, .products__title:after {
   display: block;
   width: 80px;
   height: 6px;
@@ -3693,89 +3693,6 @@ body {
 .certificates__item img {
   display: block;
   width: 100%;
-}
-
-.contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 85px;
-  padding-right: 40px;
-  padding-left: 40px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-@media screen and (max-width: 960px) {
-  .contacts {
-    padding-right: 0;
-    padding-left: 0;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
-.contacts__left {
-  width: 50%;
-}
-
-@media screen and (max-width: 960px) {
-  .contacts__left {
-    width: 100%;
-  }
-}
-
-.contacts__right {
-  width: 40%;
-  padding-top: 20px;
-}
-
-@media screen and (max-width: 960px) {
-  .contacts__right {
-    box-sizing: border-box;
-    width: 100%;
-    margin-top: 40px;
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-}
-
-.contacts__title {
-  margin-bottom: 50px;
-}
-
-.contacts__map {
-  margin-left: 50px;
-}
-
-@media screen and (max-width: 960px) {
-  .contacts__map {
-    margin-left: 0;
-  }
-}
-
-.contacts__item {
-  margin-bottom: 20px;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-@media screen and (max-width: 400px) {
-  .contacts__item {
-    font-size: 18px;
-  }
-}
-
-.contacts__item span {
-  font-weight: 400;
-}
-
-.contacts__item a {
-  color: #ffd155;
 }
 
 .factory {
@@ -3915,6 +3832,89 @@ body {
 .factory-bottom {
   display: none;
   padding-left: 40px;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 85px;
+  padding-right: 40px;
+  padding-left: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 960px) {
+  .contacts {
+    padding-right: 0;
+    padding-left: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.contacts__left {
+  width: 50%;
+}
+
+@media screen and (max-width: 960px) {
+  .contacts__left {
+    width: 100%;
+  }
+}
+
+.contacts__right {
+  width: 40%;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .contacts__right {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.contacts__title {
+  margin-bottom: 50px;
+}
+
+.contacts__map {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 960px) {
+  .contacts__map {
+    margin-left: 0;
+  }
+}
+
+.contacts__item {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 400px) {
+  .contacts__item {
+    font-size: 18px;
+  }
+}
+
+.contacts__item span {
+  font-weight: 400;
+}
+
+.contacts__item a {
+  color: #ffd155;
 }
 
 .footer {
